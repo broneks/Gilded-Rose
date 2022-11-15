@@ -1,0 +1,13 @@
+node_modules
+npm-debug.log
+
+.env
+.DS_Store
+Thumbs.db
+
+.vscode
+.idea
+*.iml
+coverage
+
+jest-test-results.json
