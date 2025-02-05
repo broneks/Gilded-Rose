@@ -61,7 +61,7 @@ describe('Gilded Rose', () => {
     });
 
     describe('Diamond', () => {
-      it("should decrease the item's sellIn by 1", () => {
+      it("should not change the item's sellIn", () => {
         const items = run([new Item('Diamond', null, 42)]);
 
         expect(items[0].sellIn).toBe(null);
